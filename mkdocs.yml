@@ -8,7 +8,7 @@ theme:
 extra_css:
 - css/custom.css
 nav:
-- Home: README.md
+- Home: readme.md
 - Project:
   - Changelog: CHANGELOG.md
   - GitHub: https://github.com/cloudmesh-ai/cloudmesh-ai-backup
