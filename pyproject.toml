@@ -35,6 +35,6 @@ where = ["src"]
 include = ["command*"]
 
 [tool.cloudmesh-ai]
-category = "utility"
+category = "idea"
 status = "experimental"
 order = 10
