@@ -7,6 +7,7 @@ name = "cloudmesh-ai-backup"
 
 dynamic = ["version"]
 description = "Extension backup created by CME"
+requires-python = ">=3.12"
 license = "Apache-2.0"
 urls = { "Homepage" = "https://github.com/cloudmesh-ai/cloudmesh-ai-backup" }
 classifiers = [
@@ -22,8 +23,6 @@ dependencies = [
     "click",
     "rich",
     "pytest",
-    "cloudmesh-ai-common",
-    "cloudmesh-ai-theme",
 ]
 [tool.setuptools.dynamic]
 version = {file = "VERSION"}
@@ -34,3 +33,7 @@ backup = "command.backup:register"
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["command*"]
+
+[tool.cloudmesh-ai]
+category = "utility"
+status = "experimental"
