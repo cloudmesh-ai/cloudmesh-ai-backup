@@ -37,3 +37,4 @@ include = ["command*"]
 [tool.cloudmesh-ai]
 category = "utility"
 status = "experimental"
+order = 10
